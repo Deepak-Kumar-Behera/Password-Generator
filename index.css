@@ -275,3 +275,40 @@
 }
 
 
+@media screen and (max-width: 400px) {
+
+    .center-div h1 {
+        color: var(--pl-white);
+        opacity: 0.75;
+        letter-spacing: 1.5px;
+        line-height: 1;
+        text-transform:uppercase;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .display {
+        width: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 1rem 0.5rem;
+        padding-right: 3.25rem;
+        color: var(--vb-yellow);
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .input-container {
+        width: 100%;
+        background: var(--dk-violet);
+        border-bottom: 0.35rem solid var(--lt-violet2);
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    
+}
